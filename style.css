@@ -99,15 +99,12 @@ footer{
 
 
 @media (max-width:800px) {
-  .footer-menu ul{
+  .footer-content ul{
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
   }
   }
-
-
-
 .social-icons {
     display: flex;
     justify-content: center;
@@ -130,13 +127,14 @@ footer{
     color: white;
     position: relative;
     transition: 0.5s cubic-bezier(0.47, 0, 0.75, 0.72);
-}
-
-.social-icons li a:hover {
-  background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-size: 40px;
-}
+  }
+  
+  .social-icons li a:hover {
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+  }
+  
